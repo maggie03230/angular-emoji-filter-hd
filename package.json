@@ -1,22 +1,22 @@
 {
-    "name": "angular-emoji-filter-hd",
-    "version": "0.0.2",
+    "name": "angular-emoji-filter-hd-thin",
+    "version": "0.0.1",
     "private": true,
     "author": {
-        "name": "Didier Baquier",
-        "email": "didier.baquier@gmail.com"
+        "name": "Maggie Ni",
+        "email": "maggie03230@gmail.com"
     },
     "repository": {
         "type": "git",
-        "url": "git://github.com/dbaq/angular-emoji-filter-hd.git"
+        "url": "https://github.com/maggie03230/angular-emoji-filter-hd-thin.git"
     },
     "bugs": {
-        "url": "https://github.com/dbaq/angular-emoji-filter-hd/issues"
+        "url": "https://github.com/maggie03230/angular-emoji-filter-hd-thin/issues"
     },
     "licenses": [
         {
             "type": "MIT",
-            "url": "https://github.com/daq/angular-emoji-filter-hd/blob/master/LICENSE"
+            "url": "https://github.com/maggie03230/angular-emoji-filter-hd-thin/blob/master/LICENSE"
         }
     ],
     "devDependencies": {

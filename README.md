@@ -8,21 +8,12 @@ Bower
 This module is available as bower package, install it with this command:
 
 ```bash
-bower install angular-emoji-filter-hd
+bower install https://github.com/maggie03230/angular-emoji-filter-hd-thin.git
 ```
-or
-
-```bash
-bower install git://github.com/dbaq/angular-emoji-filter-hd.git
-```
-
-Demo
---
-See this [plunker](http://embed.plnkr.co/Woxf3rQuLiYWhh7ccvak/preview)
 
 Usage
 --
-- Add dbaq.emoji as a dependency
+- Add maggie.emoji as a dependency
 - Add ngSanitize as a dependency (belongs to AngularJS)
 - Apply the filter within ng-bind-html: ```<div ng-bind-html="message | emoji"></div>```
 
@@ -45,7 +36,7 @@ Example
  
 ```js
 angular.module("app", ["dbaq.emoji","ngSanitize"]).controller("AppCtrl", function ($scope) {
-    $scope.message = "Animals: :dog: :cat: :snake: People: :smile: :confused: :angry: Places: :house: :school: :hotel: :poop:";
+    $scope.message = "表情: [大笑] [微笑] [阴险] ";
 });
 ```
 
